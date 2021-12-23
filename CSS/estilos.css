@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    font-family: 'Crete Round', serif;
+}
+
+body {
+    /* margin: 0; */
+	height: 100vh; 
+/* 	display: flex;
+	align-items: center;
+	justify-content: center;*/ 
+	background: linear-gradient(to right bottom, rgb(11, 13, 110), rgb(63, 110, 241));
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li {
+	font-size: 30px;
+	font-family: sans-serif;
+	background-color: white;
+	border: 2px solid black;
+	letter-spacing: 0.1em;
+	width: 10em;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: relative;
+	overflow: hidden;
+	margin: 0.1em;
+	cursor: pointer;
+}
+
+nav ul li span a {
+    color: #fff !important;
+	mix-blend-mode: difference;
+    text-decoration: none;
+}
+
+nav ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+    color: #fff !important;
+	background-color: blue;
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 0.5s ease-out;
+}
+
+nav ul li:hover::before {
+	transform: scale(14);
+    color: #fff !important;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    margin-top: 0.5em;  
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+.contenido {
+    font-size: 1.7em;
+    color: white;
+    text-align: justify;
+}
+
+.bluebox {
+  background-color: #fafafa;
+  margin: 20px 100px 100px 340px;
+  padding: 1px 20px 300px 20px;
+  border: 1px solid #ccc;
+  /* IMPORTANTE */
+  text-align: left;
+  color: black;
+  word-wrap: break-word;
+}
+
+.contenido1 {
+    font-size: 1 em;
+    color: white;
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu{
+    background-color: #000;
+
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 30px 20px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #42B881;
+}
+
+.item-r{
+    float: right;
+}
+
+
+.caja {
+	background-color: white;
+	border: 1px solid black;
+	width: 550px;
+	height: 150px;
+	padding: 5px;
+	margin: 30px 350px;
+    color: black;
+    
+}

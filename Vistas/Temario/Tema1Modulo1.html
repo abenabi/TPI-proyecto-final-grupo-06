@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootsttrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="../../CSS/temario.css">
+
+    <title>Tema 1 Módulo 1</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header>
+            <img id="logoC" src="../../IMG/C.png" alt="LOGO">
+        </header>
+
+        <nav>
+            <ul>
+                <li><span><a href="../../index.html">&nbsp;Inicio</a></span></li>
+                <li><span><a href="../aula.html">Aula Virtual</a></span></li>
+                <li><span><a href="../historia_c++.html">Historia de C++</a></span></li>
+                <li><span><a href="../planestudio.html">Plan de Estudio</a></span></li>
+                <li><span><a href="../documentacion.html">Documentacion</a></span></li>
+                <li><span><a href="../quienes-somos.html">Quiénes somos</a></span></li>
+            </ul>
+        </nav>
+
+
+        <main>
+            <h1>Tema 1: Estructura selectiva "if else"</h1>
+            <article>
+                <p> Los condicionales if-else, son una estructura de control, que nos permiten tomar cierta decisión al
+                    interior de nuestro algoritmo, es decir, nos permiten determinar que acciones tomar dada o no cierta
+                    condición, por ejemplo determinar si la contraseña ingresada por el usuario es válida o no y de
+                    acuerdo a esto darle acceso al sistema o mostrar un mensaje de error. </p>
+                <p> Se les conoce también como estructuras selectivas de casos dobles (porque definen ambas
+                    posibilidades en la ejecución --si se cumple y si no se cumple --).</p>
+                <p> En resumen, un condicional if-else es una estructura que nos posibilita definir las acciones que se
+                    deben llevar a cabo si se cumple cierta condición y también determinar las acciones que se deben
+                    ejecutar en caso de que no se cumpla; generando así una separación o bifurcación en la ejecución del
+                    programa, ejecutando ciertas acciones u otras a partir de la evaluación de una condición dada. </p>
+                <h2> ¿Cómo funciona un Condicional if-else?</h2>
+                <p> Para comprender mejor cómo funciona el condicional if-else, una muy buena forma es partiendo de un
+                    ejemplo. Imaginemos que en nuestro programa, deseamos implementar un sistema de logeo de usuario,
+                    comprobando si la información suministrada coincide con unos los valores correctos y en este caso
+                    mostrar un mensaje de bienvenida, y en caso de que no, se mostrará un mensaje de error. Como podemos
+                    imaginar, es entonces necesario hacer que nuestro algoritmo, tome una decisión, de acuerdo a los
+                    valores ingresados por el usuario, y definir los dos casos posibles en caso de fallo o en caso de
+                    que no. Es para esto que sirve el condicional if-else, nos permite definir una condición que se debe
+                    cumplir y de acuerdo a su cumplimiento o no tomar una acción correspondiente. Espero haber sido
+                    claro, sino, no te preocupes, pues veremos ya mismo algunos ejemplos para entender todo mejor. </p>
+                <h2> Sintaxis del Condicional if-else en C++: </h2>
+                <p> La sintaxis de un condicional if-else, es en principio similar a la del condicional if, pero
+                    adicionando una nueva "estructura" que es el else, el cual indica la acción o conjunto de acciones a
+                    llevar a cabo, en caso de que la condición del if no se cumpla. Cabe resaltar que el else siempre se
+                    pone inmediatamente después del if, en caso de ser necesario, el else es incapaz de funcionar por sí
+                    solo, siempre debe ir acompañado por un if. Veamos entonces como es la sintaxis de este: </p>
+                <CENTER> <img height="350" src="../../IMG/ejemplo-ifelse.png"> </CENTER>
+                <br>
+                <p>Un elemento didáctico puede aportar a la comprensión del tema: </p>
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/nPndxntZJIU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></center>
+                <br>
+            </article>
+            <article>
+                <h2>Ejercicios</h2>
+                <p>A continuacion se muestra un boton que lo llevara a la pagina de ejercicios</p>
+                <a href="../Ejercicios/EjerciciosTema1Modulo1.html"><button id="boton" type="button" class="btn btn-danger">Ejercicios</button></a>
+            </article>
+        </main>
+
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container py-1">
+            <div class="row mt-1">
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">Universidad de El Salvador</h5>
+                    <p>2021</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">TPI-115</h5>
+                    <p>&COPY; Todos los derechos reservados</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">Grupo: 06</h5>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+
+</body>
+
+</html>

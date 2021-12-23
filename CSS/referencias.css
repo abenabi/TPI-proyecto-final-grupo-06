@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    font-family: 'Crete Round', serif;
+}
+
+body {
+	background: linear-gradient(to right bottom, rgba(44, 47, 231, 0.5), rgb(63, 110, 241));
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li {
+	font-size: 30px;
+	font-family: sans-serif;
+	background-color: white;
+	border: 2px solid black;
+	letter-spacing: 0.1em;
+	width: 10em;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: relative;
+	overflow: hidden;
+	margin: 0.1em;
+	cursor: pointer;
+}
+
+nav ul li span a {
+    color: #fff !important;
+	mix-blend-mode: difference;
+    text-decoration: none;
+}
+
+nav ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+    color: #fff !important;
+	background-color: blue;
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 0.5s ease-out;
+}
+
+nav ul li:hover::before {
+	transform: scale(14);
+    color: #fff !important;
+}
+
+#logoC {
+    margin-top: 0.5em;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+main h1{
+    text-align: center;
+}
+
+/* main article h2, h3, p{
+	position: relative;
+	text-align: center;
+} */
+
+main{
+    margin-top: 1%;
+    background-color: whitesmoke;
+	min-height: 90vh;
+}
+
+footer{
+    background-color: rgb(95, 95, 95);
+	width: 100%;
+    bottom: 0;
+}
+
+article{
+	border: 2px solid #000;
+	margin: 1% 20% 1% 0%;
+	padding: 1%;
+}

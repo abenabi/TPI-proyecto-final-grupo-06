@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootsttrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="../../CSS/temario.css">
+
+    <title> Tema 2 Módulo 1</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header>
+            <img id="logoC" src="../../IMG/C.png" alt="LOGO">
+        </header>
+
+        <nav>
+            <ul>
+                <li><span><a href="../../index.html">&nbsp;Inicio</a></span></li>
+                <li><span><a href="../aula.html">Aula Virtual</a></span></li>
+                <li><span><a href="../historia_c++.html">Historia de C++</a></span></li>
+                <li><span><a href="../planestudio.html">Plan de Estudio</a></span></li>
+                <li><span><a href="../documentacion.html">Documentacion</a></span></li>
+                <li><span><a href="../quienes-somos.html">Quiénes somos</a></span></li>
+            </ul>
+        </nav>
+
+
+        <main>
+            <h1>Tema 2: Estructura selectiva "switch"</h1>
+            <article>
+                <h2>¿Qué es condicional switch?</h2>
+                <p>Los condicionales switch, son una estructura de control condicional, que permite definir múltiples
+                    casos que puede llegar a cumplir una variable cualquiera, y qué acción tomar en cualquiera de estas
+                    situaciones, incluso es posible determinar qué acción llevar a cabo en caso de no cumplir ninguna de
+                    las condiciones dadas.</p>
+                <h2> ¿Cómo funciona el switch? </h2>
+                <p> La mejor forma de entender el funcionamiento de algo, es viendo un ejemplo de esto, de este modo, me
+                    parece que para comprender de forma adecuada como funciona un condicional Switch, es bueno hacerlo
+                    poniendo un ejemplo. Imaginemos entonces que nuestro programa consta de un menú de opciones digamos
+                    3 opciones, cada una representada con un número correspondiente, es decir la opción uno corresponde
+                    al número 1, la dos al 2 y así sucesivamente, queremos entonces que de acuerdo a un número ingresado
+                    por el usuario ejecutemos una acción correspondiente y en caso de que no corresponda a ninguna de
+                    las posibles opciones, mostrar un mensaje de error cualquiera. De este modo, podemos identificar 3
+                    casos distintos para nuestro switch o en otras palabras, hemos identificado tres condiciones
+                    posibles que puede llegar a cumplir nuestra variable: el caso uno corresponde a que el valor
+                    ingresado por el usuario sea el 1, es decir ejecutar la opción 1, el caso 2 el número 2, etc.
+                    adicionalmente hemos encontrado la opción que se ejecutará por defecto en caso de no suceder ninguno
+                    de estos casos, es decir si el usuario ingresa por ejemplo 10, mostraremos un mensaje de error
+                    cualquiera. </p>
+                <h2> Sintaxis del Condicional Switch en C++: </h2>
+                <p> La sintaxis de un condicional Switch es bastante distinta a la de un condicional típico, sin embargo
+                    es bastante intuitiva y fácil de comprender, es solo cuestión de acostumbrarse. Veamos a
+                    continuación la estructura general de un condicional Switch y luego unos cuantos ejemplos. </p>
+                <center> <img width="560" height="315" src="../../IMG/ejemplo-switch.png"> </center>
+                <br>
+                <p> Un elemento didáctico puede aportar a la comprensión del tema: </p>
+                <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/df1zLfljUMM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe> </center>
+                <br>
+            </article>
+            <article>
+                <h2>Ejercicios</h2>
+                <p>A continuacion se muestra un boton que lo llevara a la pagina de ejercicios</p>
+                <a href="../Ejercicios/EjerciciosTema2Modulo1.html"><button id="boton" type="button" class="btn btn-danger">Ejercicios</button></a>
+            </article>
+        </main>
+
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container py-1">
+            <div class="row mt-1">
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">Universidad de El Salvador</h5>
+                    <p>2021</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">TPI-115</h5>
+                    <p>&COPY; Todos los derechos reservados</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 tex-center text-white">
+                    <h5 class="mt-1">Grupo: 06</h5>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+
+</body>
+
+</html>
